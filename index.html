@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лендинг-пейдж</title>
+    <link href="style.css" rel="stylesheet" />
+    <style>
+       
+     
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            .section {
+                padding: 40px 10px;
+            }
+            .subscribe-form input[type="email"] {
+                width: 100%;
+            }
+            .subscribe-form input[type="submit"] {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 400px) {
+            header h1 {
+                font-size: 24px;
+            }
+            .section h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Открой мир чтения с новым приложением!</h1>
+    <img src="bg/ikon.png" class="iconka" >
+    <img src="bg/zag.png" class="zag">
+</header>
+
+<div id="block1" class="section">
+    <h2>Тысячи книг на твоем смартфоне!</h2>
+    <p>Представляем вам удобное приложение для покупки и аренды книг — ваш личный книжный магазин всегда под рукой! Забудьте о громоздких полках и переполненных сумках. Теперь вся ваша библиотека — в вашем смартфоне. Найдите новую любимую книгу среди тысяч доступных изданий — от классической литературы до современных бестселлеров.</p>
+    <img src="bg/knigi.jpg" class="knig">
+</div>
+
+<div id="block2" class="section">
+    <h2>Аренда или покупка – выбирайте сами!</h2>
+    <p>Не хотите тратить большие суммы на книги, которые вы прочитаете лишь раз? Воспользуйтесь удобной системой аренды! Выберите срок аренды и наслаждайтесь чтением, а по окончании срока доступа книга автоматически удалится с вашего устройства. Для любителей коллекционирования у нас огромный выбор книг для покупки!</p>
+</div>
+
+<div id="block3" class="section">
+    <h2>Сообщество любителей книг: обсуждайте, делитесь, вдохновляйтесь!</h2>
+    <p>Присоединяйтесь к нашему сообществу, где вы можете обсуждать прочитанные книги, делиться рецензиями и получать рекомендации по выбору нового чтения. Вместе мы создаем пространство для настоящих книголюбов!</p>
+    <img src="bg/ludi.jpg"  class="ludii">
+</div>
+
+<div id="block4" class="section">
+    <h2>Подпишитесь на нашу рассылку!</h2>
+ 
+
+    <div class="subscribe-form">
+        
+        <form action="#" method="post">
+            <input type="email" placeholder="Ваш Email" required>
+            <input type="submit" value="Подписаться">
+        </form>
+    </div>
+   
+</div>
+
+<footer>
+    <p>&copy; 2024 Lebedev 
+ 
+
+    </p>
+    <p>Контактная информация: artemiumatego@lebedev +7 (495) 516-01-01</p>
+</footer>
+
+</body>
+</html>
